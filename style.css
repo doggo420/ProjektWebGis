@@ -1,0 +1,236 @@
+html
+{
+    margin: 0;
+	padding: 0;
+	height: 100%;
+    scroll-behavior: smooth;
+}
+
+body
+{
+	height: 100%;
+	background-color: #efefef;
+	font-family: 'Lato', sans-serif;
+}
+.page1{
+    height: 100%;
+}
+
+
+
+.page1 .graphic img{
+    height: 80%;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+
+#more-arrows {
+    height: 10%;
+    padding-left: 50%;
+}
+#more-arrows:hover polygon {
+    fill: rgb(0, 0, 0);
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+#more-arrows:hover polygon.arrow-bottom {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+}
+  
+polygon {
+    fill: rgb(0, 0, 0);
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+polygon.arrow-middle {
+    opacity: 0.75;
+}
+polygon.arrow-top {
+    opacity: 0.5;
+}
+  
+
+.page1 .logo h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100px;
+}
+.page1 .logo
+{
+	text-align: center;
+    height: 10%;
+}
+
+#container
+{
+	
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    height: 100%;
+    margin: 10px;
+    padding-bottom: 40px;
+}
+
+
+.links{
+	background-color: #b3480000;
+	display: flex;
+    flex-wrap: nowrap;
+    height: 20%;
+    
+}
+
+.links .buttonlink {
+    background: url(https://podrozovanie.pl/wp-content/uploads/2021/02/tlo-las-.jpg) no-repeat center fixed;
+	background-size: cover;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+    
+	font-size: 24px;
+	cursor: pointer;
+	position: relative;
+    padding-top: 85px;
+    box-sizing: border-box
+	
+}
+
+.links .buttonlink button{
+	background-color: #4caf4f00; /* Green */
+  	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+}
+  
+.links .buttonlink:not(:last-child) {
+	border-right: none;
+}
+  
+.links .buttonlink:hover {
+	background-color:  #469109;
+}
+
+.links .buttonlink span {
+	cursor: pointer;
+	display: inline;
+    text-align: center;
+	position: relative;
+	transition: 0.5s;
+    text-shadow: 0 0 3px green;
+}
+
+.links .buttonlink span:hover {
+	background-color: #469109;
+}
+  
+.links .buttonlink span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+  
+.links .buttonlink:hover span {
+	padding-right: 25px;
+}
+  
+.links .buttonlink:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+#mapDiv
+{
+	padding: 0;
+	margin: 0;
+    height: 80%;
+	width: auto;
+}
+
+#topbar{
+	background: #fff;
+	padding: 10px;
+}
+
+.action-button {
+	font-size: 16px;
+	background-color: transparent;
+	border: 1px solid #d3d3d3;
+	color: #6e6e6e;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .action-button:hover,
+  .action-button:focus {
+	background: #0079c1;
+	color: #e4e4e4;
+  }
+
+  .active {
+	background: #0079c1;
+	color: #e4e4e4;
+  }
+
+.last{
+	padding-top: 10px;
+    height: 100%;
+
+}
+
+.last .text {
+    height: 70%;
+	text-align: justify;
+}
+
+.last .text h3{
+	margin-left: 10px;
+}
+
+.last .text ul{
+	list-style-type: none;
+	text-align: justify;
+}
+
+
+.last .text a{
+	color: black;
+	text-decoration: none;
+}
+
+.last .footer
+{
+	background-color: #262626ff;
+	color: white;
+	text-align: center;
+ 	position: relative;
+	width: initial;
+    height: 30%;
+	padding-top: 10px;
+	
+}
+
+.last .footer a {
+	color: white;
+	text-decoration: none;
+}
